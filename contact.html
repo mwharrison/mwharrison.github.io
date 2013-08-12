@@ -7,8 +7,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-		
-	<title>Michael Harrison</title>
+	
+	
+	<title>HalfTone Template</title>
 	<meta name="description" content="">
 	
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -54,7 +55,7 @@
 			<!-- nav -->
 			<nav class="cf">
 				<ul id="nav" class="sf-menu">
-					<li class="current-menu-item"><a href="index.html"><span>HOME</span></a></li>
+					<li><a href="index.html"><span>HOME</span></a></li>
 					<li><a href="page.html"><span>FEATURES</span></a>
 						<ul>
 							<li><a href="page.html">Columns</a></li>
@@ -63,9 +64,9 @@
 							<li><a href="page-sidebar.html">Sidebar Page</a></li>
 						</ul>
 					</li>
-					<li><a href="blog.html"><span>GITHUB</span></a></li>
+					<li><a href="blog.html"><span>BLOG</span></a></li>
 					<li><a href="portfolio.html"><span>WORK</span></a></li>
-					<li><a href="contact.html"><span>CONTACT</span></a></li>
+					<li class="current-menu-item"><a href="contact.html"><span>CONTACT</span></a></li>
 					<li><a href="http://themeforest.net/item/halftone-wordpress-theme/2661175?ref=Ansimuz"><span>WORDPRESS VERSION</span></a></li>
 				</ul>
 				<div id="combo-holder"></div>
@@ -77,58 +78,82 @@
 		
 		<!-- MAIN -->
 		<div role="main" id="main" class="cf">
-			<!-- SLIDER -->
-			<div class="slider-wrapper theme-halftone">
-	            <div id="slider" class="nivoSlider">
-	                <img src="img/dummies/slides/01.jpg" alt=""  />
-	                <img src="img/dummies/slides/02.jpg" alt="" />
-	                <img src="img/dummies/slides/03.jpg" alt="" />
-	            </div>
-	            <div class="slider-left"></div>
-	            <div class="slider-right"></div>
-	        </div>
-			<!-- ENDS SLIDER -->
 			
-			
-			<!-- headline -->
-			<div class="headline">GLOBAL WEB DEVELOPER</div>
-			<!-- ENDS headline -->
-			
-  			
-			<!-- featured -->
-			<ul class="feature cf">
-				<li>
-					<a href="single.html" class="thumb" >
-						<img src="img/dummies/t1.jpg" alt="Thumbnail" />
-						<div class="img-overlay"><i class="icon-plus-sign"></i></div>
-						<div class="date"><span class="m">JAN</span><span class="d">09</span></div>
-					</a>
-					<a href="single.html"  class="excerpt">Pellentesque habitant morbi tristique senectus</a>
-					<div class="categories"><a href="#" >webdesign, </a><a href="#" >print, </a><a href="#" >photo, </a></div>
-				</li>
+			<!-- page-content -->
+			<div class="page-content">
 				
-				<li>
-					<a href="single.html" class="thumb" >
-						<img src="img/dummies/t2.jpg" alt="Thumbnail" />
-						<div class="img-overlay"><i class="icon-plus-sign"></i></div>
-						<div class="date"><span class="m">JAN</span><span class="d">09</span></div>
-					</a>
-					<a href="single.html"  class="excerpt">Pellentesque habitant morbi tristique senectus</a>
-					<div class="categories"><a href="#" >webdesign, </a><a href="#" >print, </a><a href="#" >photo, </a></div>
-				</li>
+				<!-- entry-content -->	
+	        	<div class="entry-content cf">
+	        		
+	        		<!-- GOOGLE MAPS -->
+					<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true" ></script>
+					<script type="text/javascript">
+						function initialize() {
+							var latlng = new google.maps.LatLng(-34.397, 150.644);
+							var myOptions = {
+							  zoom: 8,
+							  center: latlng,
+							  mapTypeId: google.maps.MapTypeId.ROADMAP
+						};
+						var map = new google.maps.Map(document.getElementById("map_canvas"),
+						    myOptions);
+						}
+					</script>
+					<h2 class="heading">Location</h2>
+					<div id="map_canvas"></div>
+					<p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet.</p>
+					<!-- Start google map -->
+					<script>initialize();</script>
+					<!-- ENDS GOOGLE MAPS -->
+					
+					
+					 <div class="block-divider"></div>
+					 
+					<h2 class="heading">Contact Form</h2>
+				<!-- form -->
+				<form id="contactForm" action="#" method="post">
+					<fieldset>
+														
+						<p>
+							<label for="name" >Name</label>
+							<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+						</p>
+						
+						<p>
+							<label for="email" >Email</label>
+							<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+						</p>
+						
+						<p>
+							<label for="web">Website</label>
+							<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
+						</p>
+						
+						<p>
+							<label for="comments">Message</label>
+							<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+						</p>
+						
+						<!-- send mail configuration -->
+						<input type="hidden" value="your@email.com" name="to" id="to" />
+						<input type="hidden" value="ENter the subject here" name="subject" id="subject" />
+						<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+						<!-- ENDS send mail configuration -->
+						
+						<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+					</fieldset>
+					
+				</form>
+				<p id="sent-form-msg" class="success">Form data sent. Thanks for your comments.</p>
+				<!-- ENDS form -->
 				
-				<li>
-					<a href="single.html" class="thumb" >
-						<img src="img/dummies/t3.jpg" alt="Thumbnail" />
-						<div class="img-overlay"><i class="icon-plus-sign"></i></div>
-						<div class="date"><span class="m">JAN</span><span class="d">09</span></div>
-					</a>
-					<a href="single.html"  class="excerpt">Pellentesque habitant morbi tristique senectus</a>
-					<div class="categories"><a href="#" >webdesign, </a><a href="#" >print, </a><a href="#" >photo, </a></div>
-				</li>
-			</ul>
-			<!-- ENDS featured -->
-			
+				
+										
+				</div>
+				<!-- ENDS entry-content -->
+
+			</div><!-- ENDS page-content -->
+						
 		</div>
 		<!-- ENDS MAIN -->
 		
@@ -214,7 +239,7 @@
 			<!-- bottom -->
 			<div id="bottom">
 				<div id="widget-trigger-holder"><a id="widget-trigger" href="#" title="View More" class="poshytip"></a></div>
-				<div id="content">Hand crafted by Michael Harrison and hosted on Github for fun.</div>
+				<div id="content">HalfTone Theme by <a href="http://www.luiszuno.com" >luiszuno.com</a> </div>
 			</div>
 			<!-- ENDS bottom -->
 			
@@ -245,7 +270,10 @@
 	<script src="js/css3-mediaqueries.js"></script>
 	<script src="js/tabs.js"></script>
 	<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+	<script type="text/javascript" src="js/form-validation.js"></script>
 	<!-- end scripts -->
+	
+	
 
 </body>
 </html>
