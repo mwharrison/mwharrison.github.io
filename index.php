@@ -109,21 +109,21 @@
 								<article class="box box-style2">
 									<a href="#" class="image image-full"><img src="images/tripcountdown.png" alt="" /></a>
 									<h3><a href="http://tripcountdown.com">Trip Countdown</a></h3>
-									<p>Social trip platform and planning written in Django</p>
+									<p>#django</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="#" class="image image-full"><img src="images/coi.png" alt="" /></a>
 									<h3><a href="http://coi.rice.edu" target="_blank">Conflict of Interest</a></h3>
-									<p>Conflict reporting system written in Django</p>
+									<p>#django</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="#" class="image image-full"><img src="images/yellowfin.png" alt="" /></a>
 									<h3><a href="http://buildabadgeonline.com" target="_blank">Yellowfin Industries</a></h3>
-									<p>E-commerce site with interactive badge building written in PHP</p>
+									<p>#php #e-commerce</p>
 								</article>
 							</div>
 						</div>
@@ -132,21 +132,21 @@
 								<article class="box box-style2">
 									<a href="#" class="image image-full"><img src="images/visitor.png" alt="" /></a>
 									<h3><a href="http://test.visitor.rice.edu" target="_blank">Visitor Portal</a></h3>
-									<p>Visitor vetting process for Rice written in Django</p>
+									<p>#django</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="#" class="image image-full"><img src="images/ctbp.png" alt="" /></a>
 									<h3><a href="http://ctbp.rice.edu" target="_blank">CTBP</a></h3>
-									<p>Content system for Center for Biological Physics written in Drupal</p>
+									<p>#drupal</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="#" class="image image-full"><img src="images/unicorn.png" alt="" /></a>
 									<h3><a href="http://test.unicorn.rice.edu" target="_blank">Unicorn</a></h3>
-									<p>Project management solution written in Django</p>
+									<p>#django</p>
 								</article>
 							</div>
 						</div>
