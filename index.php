@@ -46,7 +46,7 @@
 							<header>
 								<h1>Hi. I'm <strong>Michael Harrison</strong>.</h1>
 							</header>
-							<p>And I love <strong>Programming</strong> in Python. <strong>Wine</strong> is a passion of mine. <a href="http://thehoustonfoodie.com/">The Houston Foodie</a> is my awesome blog about Houston <strong>food</strong>. I <strong>travel</strong> every chance I get.</p>
+							<p>I love <strong>Programming</strong> in Python. <strong>Wine</strong> is a passion of mine. <a href="http://thehoustonfoodie.com/">The Houston Foodie</a> is my awesome blog about Houston <strong>food</strong>. I <strong>travel</strong> every chance I get.</p>
 							<a href="#work" class="button button-big">Learn about what I do</a>
 						</div>
 					</div>
@@ -96,10 +96,10 @@
 			<div class="wrapper wrapper-style3">
 				<article id="portfolio">
 					<header>
-						<h2>Some of my projects and work.</h2>
-						<span>Proin odio consequat  sapien vestibulum ipsum primis sed amet consequat lorem dolore feugiat lorem ipsum dolore.</span>
+						<h2>My projects and work</h2>
+						<span>My projects range from simple and personal to complex with a world-wide presence.</span>
 					</header>
-					<div class="container">
+					<div class="5grid-layout">
 						<div class="row">
 							<div class="12u">
 							</div>
@@ -107,52 +107,52 @@
 						<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/generic-smartphone/8949517882265310" class="image image-full"><img src="images/portfolio01.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/generic-smartphone/8949517882265310">Magna feugiat</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image image-full"><img src="images/tripcountdown.png" alt="" /></a>
+									<h3><a href="http://tripcountdown.com">Trip Countdown</a></h3>
+									<p>Social trip platform and planning written in Django</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio02.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33">Veroeros primis</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image image-full"><img src="images/coi.png" alt="" /></a>
+									<h3><a href="http://coi.rice.edu" target="_blank">Conflict of Interest</a></h3>
+									<p>Conflict reporting system written in Django</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/wood-ui-kit/3574765984616310" class="image image-full"><img src="images/portfolio03.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/wood-ui-kit/3574765984616310">Lorem ipsum</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image image-full"><img src="images/yellowfin.png" alt="" /></a>
+									<h3><a href="http://buildabadgeonline.com" target="_blank">Yellowfin Industries</a></h3>
+									<p>E-commerce site with interactive badge building written in PHP</p>
 								</article>
 							</div>
 						</div>
 						<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/n33-pattern-set-1/3522389001865317" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33-pattern-set-1/3522389001865317">Tempus dolore</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image image-full"><img src="images/visitor.png" alt="" /></a>
+									<h3><a href="http://test.visitor.rice.edu" target="_blank">Visitor Portal</a></h3>
+									<p>Visitor vetting process for Rice written in Django</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/cityscape/9803996277226316">Feugiat aliquam</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image image-full"><img src="images/ctbp.png" alt="" /></a>
+									<h3><a href="http://ctbp.rice.edu" target="_blank">CTBP</a></h3>
+									<p>Content system for Center for Biological Physics written in Drupal</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image image-full"><img src="images/unicorn.png" alt="" /></a>
+									<h3><a href="http://test.unicorn.rice.edu" target="_blank">Unicorn</a></h3>
+									<p>Project management solution written in Django</p>
 								</article>
 							</div>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<p>Ready to start your awesome project?</p>
 						<a href="#contact" class="button button-big">Get in touch with me</a>
 					</footer>
 				</article>
@@ -202,13 +202,12 @@
 							<div class="12u">
 								<h3>Find me on ...</h3>
 								<ul class="social">
-									<li class="twitter"><a href="http://twitter.com/n33co" class="icon icon-twitter"><span>Twitter</span></a></li>
+									<li class="twitter"><a href="http://twitter.com/htxfoodie" class="icon icon-twitter"><span>Twitter</span></a></li>
 									<li class="facebook"><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
-									<li class="dribbble"><a href="http://dribbble.com/n33" class="icon icon-dribbble"><span>Dribbble</span></a></li>
 									<li class="linkedin"><a href="#" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
 									<li class="tumblr"><a href="#" class="icon icon-tumblr"><span>Tumblr</span></a></li>
 									<li class="googleplus"><a href="#" class="icon icon-google-plus"><span>Google+</span></a></li>
-									<li class="github"><a href="http://github.com/n33" class="icon icon-github"><span>Github</span></a></li>
+									<li class="github"><a href="http://github.com/mwharrison" class="icon icon-github"><span>Github</span></a></li>
 									<!--
 									<li class="rss"><a href="#" class="icon icon-rss"><span>RSS</span></a></li>
 									<li class="instagram"><a href="#" class="icon icon-instagram"><span>Instagram</span></a></li>
